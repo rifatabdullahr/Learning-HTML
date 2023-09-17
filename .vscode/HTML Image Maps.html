@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the laptop to execute a JavaScript function:</p>
+<p>Click on the smartphone to execute a JavaScript function:</p>
+<p>Click on the cup of coffee to execute a JavaScript function:</p>
+
+<img src="D:\VS Code\HTML\workplace.jpg" alt="" usemap="#workmap" width="400" height="379">
+<map name="workmap">
+    <area shape="rect" coords="33, 44, 270, 348" href="https://www.apple.com/macbook-pro/" onclick="myfunction()">
+    <area shape="rect" coords="288, 167, 336, 253" href="https://www.apple.com/iphone-15-pro/" onclick="myfunction2()">
+    <area shape="circle" coords="338, 304, 52" href="https://unsplash.com/s/photos/coffee-cup" onclick="myfunction3()">
+</map>
+<script>
+    function myfunction() {
+      alert("You clicked the laptop!");
+    }
+    function myfunction2() {
+      alert("You clicked the smartphone");
+    }
+    function myfunction3() {
+       alert("You clicked the Coffeecup")
+    }
+    </script>
+</body>
+</html>
