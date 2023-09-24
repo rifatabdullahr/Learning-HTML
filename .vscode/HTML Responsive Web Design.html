@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title> Hardinge Bridge </title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .menu {
+                float: left;
+                width: 15%;
+                padding: 20px;
+                margin-top: 6px;
+                border-top: 1.5px solid rgb(12, 209, 51);
+                border-bottom:1.5px solid rgb(12, 209, 51);
+                background-color: skyblue;
+                color: rgb(42, 85, 165);
+                text-align: center;
+            }
+            .menuitem {
+                padding: 15px;
+                margin-top: 6px;
+                border-bottom: 1.5px solid rgb(12, 209, 51);
+                background-color: skyblue;
+                color: brown;            
+            }
+            .main {
+                float:left;
+                width:60%;
+                overflow: hidden;
+                padding: 20px;
+                background-color: aliceblue;
+                color:rgb(88, 78, 78);
+            }
+            .right {
+                float: right;
+                width: 25%;
+                background-color: rgb(212, 153, 246);
+                color: rgb(8, 99, 8);
+                text-align: center;
+            }
+            .rightitem {
+                padding: 7px;
+                border-bottom: 1.5px solid rgb(237, 237, 116);
+                text-align: justify;
+            }
+            @media only screen and (max-width:800px) {
+                /* For tablets only */
+                .main {
+                    width: 80%;
+                    padding: 0%;
+                }
+                .right {
+                    width: 100%;
+                }
+
+            }
+            @media only screen and (max-width:500px) {
+                /*For Smartphone only */
+                .menu, .main, .right {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body style="font-family: Verdana;">
+        
+        <div style="background-color: bisque; color: black; padding: 15px;">
+            <h1> Historical Bridge </h1> 
+            <h3> Located in Pabna </h3>
+        </div>
+
+        <div style="overflow: hidden;">
+            <div class="menu"> <h3> Menu </h3> 
+            <div class="menuitem"> <h4> Hardinge Bridge </h4></div>
+            <div class="menuitem"> <h4> Build </h4></div>
+            <div class="menuitem"> <h4> History </h4></div>
+            <div class="menuitem"> <h4> Transport </h4></div>
+            <div class="menuitem"> <h4> Gallery </h4></div>
+            </div>
+        
+
+            <div class="main">
+            <h2 > Hardinge Bridge </h2>
+            <p><strong>Hardinge Bridge</strong> is a steel railway truss bridge over the Padma River located at Ishwardi, Pabna and Bheramara, and Kushtia in Bangladesh. It is named after Lord Hardinge, who was the Viceroy of India from 1910 to 1916. The bridge is 1.8 km (1.1 mi) long.</p>
+            <img src="https://i.postimg.cc/nrK0ZykK/Hardinge-Bridge.jpg" style="width:100%">
+            </div>
+
+            <div class="right">
+                <div class="rightitem"><h3>What?</h3>
+                    <p>-A Historical Railway Bridge made of Iron Metal.</p>
+                </div>
+
+                <div class="rightitem"><h3>Where?</h3>
+                    <p>-Located in Pabna.</p>
+                </div>
+
+                <div class="rightitem"><h3>When?</h3>
+                    <p>-4 march,1915.</p>
+                </div>      
+            </div>
+        </div>
+        
+    <div style="background-color: rgb(189, 75, 75); color: aliceblue; text-align: center; font-size: 12px; margin-top: 7px; padding:10px ;">
+    This responsive site is created by Rifat Abdullah.24th sep,2023.
+    </div>
+
+    </body>
+
+</html>
