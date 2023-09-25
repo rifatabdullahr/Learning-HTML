@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+.head{
+    background-color: rgb(53, 173, 53);
+    color: black;
+    padding: 20px;
+}
+.column1 {
+    float: left;
+    width: 33%;
+    height: auto;
+    background-color: azure;
+    padding: 15px;
+}
+.column2 {
+    float: left;
+    width: 34%;
+    height: auto;
+    background-color: azure;
+    padding: 15px;
+}
+.column3 {
+    float: right;
+    width: 33%;
+    height: auto;
+    background-color: azure;
+    padding: 15px;
+}
+@media only screen and (max-width:800px) {
+    /* for tablet */
+    .head, .column, .column1, .column3 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    /* for mobile */
+    .head, .column, .column1, .column3 {
+        width: 100%;
+    }
+}
+    
