@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    float: left;
+    width: 15%;
+    padding: 20px;
+    margin-top: 6px;
+    border-top: 1.5px solid rgb(12, 209, 51);
+    border-bottom:1.5px solid rgb(12, 209, 51);
+    background-color: skyblue;
+    color: rgb(42, 85, 165);
+    text-align: center;
+}
+.menuitem {
+    padding: 15px;
+    margin-top: 6px;
+    border-bottom: 1.5px solid rgb(12, 209, 51);
+    background-color: skyblue;
+    color: brown;            
+}
+.main {
+    float:left;
+    width:60%;
+    overflow: hidden;
+    padding: 20px;
+    background-color: aliceblue;
+    color:rgb(88, 78, 78);
+}
+.right {
+    float: right;
+    width: 25%;
+    background-color: rgb(212, 153, 246);
+    color: rgb(8, 99, 8);
+    text-align: center;
+}
+.rightitem {
+    padding: 7px;
+    border-bottom: 1.5px solid rgb(237, 237, 116);
+    text-align: justify;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets only */
+    .main {
+        width: 80%;
+        padding: 0%;
+    }
+    .right {
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:500px) {
+    /*For Smartphone only */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
